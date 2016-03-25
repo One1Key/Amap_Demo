@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Amap_Demo
+//
+//  Created by mac book on 16/3/24.
+//  Copyright © 2016年 mac book. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define AMAP_KEY @"99aa45bc49925158c250f9a7751fed88"
+#import <MAMapKit/MAMapKit.h>
+#import "WGS84TOGCJ02.h"
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+
+//屏幕尺寸
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif /* PrefixHeader_pch */
